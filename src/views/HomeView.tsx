@@ -1,6 +1,6 @@
+import CenterBox from "components/styles/paper/center";
 import React from "react";
-import { View, Text, Button } from "react-native";
-import CenterBox from "../components/styles/paper/center";
+import { Text, Button } from "react-native";
 
 const HomeView = ({ navigation }: any) => {
   return (

@@ -1,9 +1,10 @@
 import React, { FC } from "react";
-import { View, Text, TextInput, Button, Alert } from "react-native";
+import { View, Text, TextInput, Button} from "react-native";
+import CenterBox from "components/styles/paper/center";
 
 const LoginView: FC = ({ navigation }: any) => {
   return (
-    <View>
+    <CenterBox>
       <Text>Sign Up or Sign In:</Text>
       <View>
         <TextInput placeholder="email" autoCapitalize="none" />
@@ -18,7 +19,7 @@ const LoginView: FC = ({ navigation }: any) => {
           navigation.navigate("signup");
         }}
       />
-    </View>
+    </CenterBox>
   );
 };
 
